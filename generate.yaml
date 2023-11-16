@@ -1,10 +1,12 @@
 ---
-environmentSpec: QA
+environmentSpec: INT
 authMethod: none
-responseCache:
-  timeDuration: 300
+azureRateLimit:
+  noOfCalls: 10
+  renewalPeriod: 10
+  counter: ip-address
 product:
-  productName: zdasd
+  productName: prod2
   apiList: "cc-transformer-api,asset-management"
 schemes: []
 routes: []
