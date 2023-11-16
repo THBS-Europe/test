@@ -1,0 +1,10 @@
+---
+environmentSpec: QA
+authMethod: none
+responseCache:
+  timeDuration: 300
+product:
+  productName: zdasd
+  apiList: "cc-transformer-api,asset-management"
+schemes: []
+routes: []
