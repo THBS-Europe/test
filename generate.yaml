@@ -2,17 +2,15 @@
 environmentSpec: QA
 type: Product
 authMethod: none
-azureRateLimit:
-  noOfCalls: 2
-  renewalPeriod: 10
-  ratepolicy: product
-  counter: ip-address
 responseCache:
-  timeDuration: 11
+  timeDuration: 200
   cachepolicy: api
 product:
-  productName: prod2
+  productName: zdasd
   apiList: "cc-transformer-api,asset-management"
-  subscriptionname: Sub2
+  subscriptionname: sub2
+corelation:
+  correlationId: "true"
+  correlationpolicy: product
 schemes: []
 routes: []
