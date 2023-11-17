@@ -1,12 +1,18 @@
 ---
-environmentSpec: INT
+environmentSpec: QA
+type: Product
 authMethod: none
 azureRateLimit:
-  noOfCalls: 10
+  noOfCalls: 2
   renewalPeriod: 10
+  ratepolicy: product
   counter: ip-address
+responseCache:
+  timeDuration: 11
+  cachepolicy: api
 product:
   productName: prod2
   apiList: "cc-transformer-api,asset-management"
+  subscriptionname: Sub2
 schemes: []
 routes: []
